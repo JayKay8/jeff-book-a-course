@@ -171,7 +171,7 @@ document.getElementById("formular").addEventListener("submit", function (event) 
   doAllWork();
 });
 
-function cursor(x){
+function cursor(x) {
   let pointer = x.selectedIndex;
   document.body.style.cursor = x.options[pointer].text;
 }
